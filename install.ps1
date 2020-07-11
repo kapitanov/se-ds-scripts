@@ -4,7 +4,7 @@ $ErrorActionPreference = "Stop"
 # -----------------------------------------------------------------------------
 # Configuration
 # -----------------------------------------------------------------------------
-$INSTALL_LOCATION = Join-Path $(pwd) "SpaceEngineersDedicated"
+$INSTALL_LOCATION = "c:/SpaceEngineersDedicated"
 $SE_INSTALL_LOCATION = Join-Path $INSTALL_LOCATION "Server"
 $STEAMCMD_INSTALL_LOCATION = Join-Path $INSTALL_LOCATION "SteamCMD"
 $STEAMCMD_INSTALL_SOURCE = "https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip"
